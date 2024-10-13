@@ -1,8 +1,10 @@
 DATABASE:
 1) A database is an organized collection of data stored in a computer system and usually controlled by a database management system (DBMS).
-The data in common databases is modeled in tables, making querying and processing efficient. Structured query language (SQL) is commonly used for data querying and writing.
+The data in common databases is modeled in tables, making querying and processing efficient. Structured query language (SQL) is commonly used
+for data querying and writing.
 
-2) The Database is an essential part of our life. We encounter several activities that involve our interaction with databases, for example in the bank, in the railway station, 
+2) The Database is an essential part of our life. We encounter several activities that involve our interaction with databases, for example in
+the bank, in the railway station, 
 in school, in a grocery store, etc. These are the instances where we need to store a large amount of data in one place and fetch these data easily. 
 
 DATA :
@@ -15,11 +17,27 @@ It allows users to create, modify, and query a database, as well as manage the s
 DBMS provides an environment to store and retrieve data in convenient and efficient manner.
 
 Key Features of DBMS
-A) Data modeling: A DBMS provides tools for creating and modifying data models, which define the structure and relationships of the data in a database.
-B) Data storage and retrieval: A DBMS is responsible for storing and retrieving data from the database, and can provide various methods for searching and querying the data.
-C) Concurrency control: A DBMS provides mechanisms for controlling concurrent access to the database, to ensure that multiple users can access the data without conflicting with each other.
-D) Data integrity and security: A DBMS provides tools for enforcing data integrity and security constraints, such as constraints on the values of data and access controls that restrict who can access the data.
+A) Data modeling: A DBMS provides tools for creating and modifying data models, which define the structure and relationships of the data in a
+database.
+B) Data storage and retrieval: A DBMS is responsible for storing and retrieving data from the database, and can provide various methods for
+searching and querying the data.
+C) Concurrency control: A DBMS provides mechanisms for controlling concurrent access to the database, to ensure that multiple users can access
+the data without conflicting with each other.
+D) Data integrity and security: A DBMS provides tools for enforcing data integrity and security constraints, such as constraints on the values of 
+data and access controls that restrict who can access the data.
 E) Backup and recovery: A DBMS provides mechanisms for backing up and recovering the data in the event of a system failure.
-F) DBMS can be classified into two types: Relational Database Management System (RDBMS) and Non-Relational Database Management System (NoSQL or Non-SQL)
-G) RDBMS: Data is organized in the form of tables and each table has a set of rows and columns. The data are related to each other through primary and foreign keys.
-H) NoSQL: Data is organized in the form of key-value pairs, documents, graphs, or column-based. These are designed to handle large-scale, high-performance scenarios.
+F) DBMS can be classified into two types: Relational Database Management System (RDBMS) and Non-Relational Database Management System 
+(NoSQL or Non-SQL)
+G) RDBMS: Data is organized in the form of tables and each table has a set of rows and columns. The data are related to each other through
+primary and foreign keys.
+H) NoSQL: Data is organized in the form of key-value pairs, documents, graphs, or column-based. These are designed to handle large-scale,
+high-performance scenarios.
+
+Types of DBMS:
+
+1) Relational Database Management System (RDBMS): Data is organized into tables (relations) with rows and columns, and the relationships between 
+the data are managed through primary and foreign keys. SQL (Structured Query Language) is used to query and manipulate the data.
+2) NoSQL DBMS: Designed for high-performance scenarios and large-scale data, NoSQL databases store data in various non-relational formats such as 
+key-value pairs, documents, graphs, or columns.
+3) Object-Oriented DBMS (OODBMS): Stores data as objects, similar to those used in object-oriented programming, allowing for complex data
+representations and relationships
