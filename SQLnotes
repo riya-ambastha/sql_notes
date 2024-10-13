@@ -4,3 +4,22 @@ The data in common databases is modeled in tables, making querying and processin
 
 2) The Database is an essential part of our life. We encounter several activities that involve our interaction with databases, for example in the bank, in the railway station, 
 in school, in a grocery store, etc. These are the instances where we need to store a large amount of data in one place and fetch these data easily. 
+
+DATA :
+Data is statically raw and unprocessed information. For example – name, class, marks, etc. In computer language, a piece of information that can be
+translated into a form for efficient movement and processing is called data. Data is interchangeable information.
+
+DBMS:
+A Database Management System (DBMS) is a software system that is designed to manage and organize data in a structured manner.
+It allows users to create, modify, and query a database, as well as manage the security and access controls for that database.
+DBMS provides an environment to store and retrieve data in convenient and efficient manner.
+
+Key Features of DBMS
+A) Data modeling: A DBMS provides tools for creating and modifying data models, which define the structure and relationships of the data in a database.
+B) Data storage and retrieval: A DBMS is responsible for storing and retrieving data from the database, and can provide various methods for searching and querying the data.
+C) Concurrency control: A DBMS provides mechanisms for controlling concurrent access to the database, to ensure that multiple users can access the data without conflicting with each other.
+D) Data integrity and security: A DBMS provides tools for enforcing data integrity and security constraints, such as constraints on the values of data and access controls that restrict who can access the data.
+E) Backup and recovery: A DBMS provides mechanisms for backing up and recovering the data in the event of a system failure.
+F) DBMS can be classified into two types: Relational Database Management System (RDBMS) and Non-Relational Database Management System (NoSQL or Non-SQL)
+G) RDBMS: Data is organized in the form of tables and each table has a set of rows and columns. The data are related to each other through primary and foreign keys.
+H) NoSQL: Data is organized in the form of key-value pairs, documents, graphs, or column-based. These are designed to handle large-scale, high-performance scenarios.
