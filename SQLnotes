@@ -104,3 +104,12 @@ As an example, we will create a new database with the name “COLLEGE”.
 
 SQL Query:
 CREATE DATABASE  COLLEGE;
+
+List Databases in SQL
+Now we will verify whether the new database that we have just created has been successfully added to our system or not. 
+
+We use the SHOW DATABASES command and it will return a list of databases that exist in our system. 
+Now we will look for the name of the database (COLLEGE) that we have just created.
+
+SQL Query:
+SHOW DATABASES;
