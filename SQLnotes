@@ -95,3 +95,12 @@ relational database management systems (RDBMS) to create databases.
 Syntax:-
 The syntax to use the CREATE DATABASE command in SQL is:
 CREATE DATABASE database_name;
+
+Creating Your First SQL Database
+To create a new database in SQL we use the CREATE DATABASE command and then we mention the name of the database. 
+Note that blank spaces are not allowed in the name of the database, we can only use underscore (_). 
+
+As an example, we will create a new database with the name “COLLEGE”.
+
+SQL Query:
+CREATE DATABASE  COLLEGE;
