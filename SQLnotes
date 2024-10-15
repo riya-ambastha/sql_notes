@@ -111,5 +111,12 @@ Now we will verify whether the new database that we have just created has been s
 We use the SHOW DATABASES command and it will return a list of databases that exist in our system. 
 Now we will look for the name of the database (COLLEGE) that we have just created.
 
-SQL Query:
+SQL Query:-
 SHOW DATABASES;
+
+USE Database in SQL
+To use a specific database in SQL, we use the USE Statement.
+
+Syntax:-
+The syntax to use a database in SQL is:
+USE database_name
