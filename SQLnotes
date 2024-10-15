@@ -87,3 +87,11 @@ Data Query Language (DQL)
 Data query language(DQL) is the subset of “Data Manipulation Language”. The most common command of DQL is 1the SELECT statement. 
 SELECT statement helps us in retrieving the data from the table without changing anything or modifying the table. 
 DQL is very important for retrieval of essential data from a database.
+
+CREATE DATABASE in SQL
+The CREATE DATABASE query in SQL is used to create a new database in the database management system. It is also used in MySQL and other 
+relational database management systems (RDBMS) to create databases.
+
+Syntax:-
+The syntax to use the CREATE DATABASE command in SQL is:
+CREATE DATABASE database_name;
