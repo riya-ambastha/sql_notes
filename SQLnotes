@@ -130,3 +130,13 @@ Syntax:-
 
 SQL DROP TABLE syntax is:
 DROP DATABASE database_name;
+
+SQL Select Database:
+The SELECT statement in SQL is used to query and retrieve data from a database.
+It specifies which columns of data we want to retrieve and from which tables.
+However, if we are asking about “selecting” a database, we might be referring to how to choose or switch between databases in SQL.
+
+Syntax to Select a Database in SQL
+
+The syntax to select a database in SQL is:
+USE DATABASE_NAME;
