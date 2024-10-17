@@ -172,3 +172,17 @@ CREATE TABLE Employee (
     Department VARCHAR(50),
     Salary DECIMAL(10, 2)
 );
+
+CREATE TABLE in SQL and Insert Data
+In this example, we will create a new table and insert data into it.
+
+Let us create a table to store data of Customers, so the table name is Customer, Columns are Name, Country, age, phone, and so on. 
+
+CREATE TABLE Customer(
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(50),
+    LastName VARCHAR(50),
+    Country VARCHAR(50),
+    Age INT CHECK (Age >= 0 AND Age <= 99),
+    Phone int(10)
+);
