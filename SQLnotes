@@ -141,48 +141,4 @@ Syntax to Select a Database in SQL
 The syntax to select a database in SQL is:
 USE DATABASE_NAME;
 
-SQL CREATE TABLE Statement
-SQL CREATE TABLE Statement is used to create a new table in a database. Users can define the table structure by specifying the column’s name 
-and data type in the CREATE TABLE command.
 
-This statement also allows to create table with constraints, that define the rules for the table. Users can create tables in SQL and insert 
-data at the time of table creation.
-
-Syntax:-
-
-To create a table in SQL, use this CREATE TABLE syntax:
-
-CREATE table table_name
-(
-Column1 datatype (size),
-column2 datatype (size),
-.
-.
-columnN datatype(size)
-);
-Here table_name is name of the table, column is the name of column
-
-CREATE TABLE EMPLOYEE Example
-In this example, we will create table in SQL with primary key, named “EMPLOYEE”.
-
-CREATE TABLE Employee (
-    EmployeeID INT PRIMARY KEY,
-    FirstName VARCHAR(50),
-    LastName VARCHAR(50),
-    Department VARCHAR(50),
-    Salary DECIMAL(10, 2)
-);
-
-CREATE TABLE in SQL and Insert Data
-In this example, we will create a new table and insert data into it.
-
-Let us create a table to store data of Customers, so the table name is Customer, Columns are Name, Country, age, phone, and so on. 
-
-CREATE TABLE Customer(
-    CustomerID INT PRIMARY KEY,
-    CustomerName VARCHAR(50),
-    LastName VARCHAR(50),
-    Country VARCHAR(50),
-    Age INT CHECK (Age >= 0 AND Age <= 99),
-    Phone int(10)
-);
