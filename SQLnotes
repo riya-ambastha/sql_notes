@@ -161,3 +161,14 @@ column2 datatype (size),
 columnN datatype(size)
 );
 Here table_name is name of the table, column is the name of column
+
+CREATE TABLE EMPLOYEE Example
+In this example, we will create table in SQL with primary key, named “EMPLOYEE”.
+
+CREATE TABLE Employee (
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Department VARCHAR(50),
+    Salary DECIMAL(10, 2)
+);
