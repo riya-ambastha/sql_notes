@@ -1,0 +1,17 @@
+WHERE CLAUSE:-
+
+WHERE keyword is used for fetching filtered data in a result set. It is used to fetch data according to particular criteria. WHERE keyword can also be used to filter data by matching patterns.
+
+Syntax:
+
+
+SELECT column1,column2 FROM table_name WHERE column_name operator value;
+
+
+Parameter Explanation:
+
+column1,column2: fields in the table
+table_name: name of table
+column_name: name of field used for filtering the data
+operator: operation to be considered for filtering
+value: exact value or pattern to get related data in result 
