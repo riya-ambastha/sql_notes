@@ -15,3 +15,28 @@ table_name: name of table
 column_name: name of field used for filtering the data
 operator: operation to be considered for filtering
 value: exact value or pattern to get related data in result 
+
+Query:
+
+CREATE TABLE Emp1(
+    EmpID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Country VARCHAR(50),
+    Age int(2),
+  mob int(10)
+);
+-- Insert some sample data into the Customers table
+INSERT INTO Emp1 (EmpID, Name,Country, Age, mob)
+VALUES (1, 'Shubham',  'India','23','738479734'),
+       (2, 'Aman ',  'Australia','21','436789555'),
+       (3, 'Naveen', 'Sri lanka','24','34873847'),
+       (4, 'Aditya',  'Austria','21','328440934'),
+       (5, 'Nishant', 'Spain','22','73248679');
+       Select * from Emp1;
+
+Where Clause with Logical Operators
+To fetch records of  Employee with ages equal to 24. 
+
+Query:
+
+SELECT * FROM Emp1 WHERE Age=24;
