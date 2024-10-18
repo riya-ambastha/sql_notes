@@ -32,3 +32,26 @@ VALUES (1, 'Shubham', 'Thakur', 'India','23','xxxxxxxxxx'),
        (3, 'Naveen', 'Tulasi', 'Sri lanka','24','xxxxxxxxxx'),
        (4, 'Aditya', 'Arpan', 'Austria','21','xxxxxxxxxx'),
        (5, 'Nishant. Salchichas S.A.', 'Jain', 'Spain','22','xxxxxxxxxx');
+
+SELECT FIRST in SQL
+The SELECT FIRST clause in SQL is used to fetch the first record from a column.
+
+This FIRST query can be used for Employee management systems, inventory management, and billing systems.
+
+Note: The SELECT FIRST clause is not universally supported across all SQL platforms. Some variations of the FIRST clause in other databases are LIMIT, TOP, or FETCH FIRST.
+
+Syntax:-
+The syntax to use the SELECT FIRST clause in SQL is:
+
+SELECT FIRST (columnName) FROM tableName;
+
+SQL SELECT FIRST Example
+Let’s look at an example of the SELECT FIRST query in SQL.
+
+This query can only be used in MS Access.
+
+In this example, we will select the first name for the table “stationary”.
+
+SELECT FIRST (Name) AS First_name FROM Stationary;
+
+
