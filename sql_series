@@ -1,0 +1,34 @@
+SELECT Statement in SQL
+The SELECT statement in SQL is used to fetch or retrieve data from a database. It allows users to access the data and retrieve specific data based on specific conditions.
+
+We can fetch either the entire table or according to some specified rules. The data returned is stored in a result table. This result table is also called the result set. With the SELECT clause of a SELECT command statement, we specify the columns that we want to be displayed in the query result and, optionally, which column headings we prefer to see above the result table.
+
+The SELECT clause is the first clause and is one of the last clauses of the select statement that the database server evaluates. The reason for this is that before we can determine what to include in the final result set, we need to know all of the possible columns that could be included in the final result set.
+
+Syntax:-
+The syntax for the SELECT statement is:
+
+SELECT column1,column2…. FROM table_name ;
+
+SELECT Statement Example
+Let’s look at some examples of the SQL SELECT statement, to understand it better.
+
+Let’s create a table which will be used in examples:
+
+CREATE TABLE:
+
+CREATE TABLE Customer(
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(50),
+    LastName VARCHAR(50),
+    Country VARCHAR(50),
+    Age int(2),
+  Phone int(10)
+);
+-- Insert some sample data into the Customers table
+INSERT INTO Customer (CustomerID, CustomerName, LastName, Country, Age, Phone)
+VALUES (1, 'Shubham', 'Thakur', 'India','23','xxxxxxxxxx'),
+       (2, 'Aman ', 'Chopra', 'Australia','21','xxxxxxxxxx'),
+       (3, 'Naveen', 'Tulasi', 'Sri lanka','24','xxxxxxxxxx'),
+       (4, 'Aditya', 'Arpan', 'Austria','21','xxxxxxxxxx'),
+       (5, 'Nishant. Salchichas S.A.', 'Jain', 'Spain','22','xxxxxxxxxx');
