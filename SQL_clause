@@ -81,7 +81,7 @@ In the query, the GROUP BY clause is placed before the ORDER BY clause if used.
 In the query, the Group BY clause is placed before the Having clause.
 Place condition in the having clause.
 
-Syntax:
+Syntax:-
 
 SELECT column1, function_name(column2)
 FROM table_name
@@ -89,4 +89,20 @@ WHERE condition
 GROUP BY column1, column2
 ORDER BY column1, column2;
 
+The LIMIT clause in SQL allows users to control the amount of data retrieved and displayed in the result set.
 
+It is useful when only a subset of records is needed for analysis or display purposes in large databases with thousands of records.
+
+Syntax :-
+The Syntax to use LIMIT in SQL is:
+
+SELECT column1, column2, …
+FROM table_name
+WHERE condition
+ORDER BY column
+LIMIT [offset,] row_count;
+
+
+Here,
+offset: number of rows to skip before returning the result set.
+row_count: number of rows to return in the result set.
