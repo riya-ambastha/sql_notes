@@ -53,3 +53,21 @@ Operator	Description
 BETWEEN -   	In an inclusive Range
 LIKE	-    Search for a pattern
 IN	   -     To specify multiple possible values for a column
+
+ORDER BY in SQL
+The ORDER BY statement in SQL is used to sort the fetched data in either ascending or descending according to one or more columns. It is very useful to present data in a structured manner.
+
+SQL ORDER BY default mode is sorting data into ascending order. To sort data in descending order use the DESC keyword with ORDER BY clause.
+
+Syntax
+The syntax to use ORDER BY clause in SQL is:
+
+SELECT * FROM table_name ORDER BY column_name ASC | DESC
+
+
+Key Terms:
+
+table_name: name of the table.
+column_name: name of the column according to which the data is needed to be arranged.
+ASC: to sort the data in ascending order.
+DESC: to sort the data in descending orde
