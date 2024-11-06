@@ -53,5 +53,6 @@ This query can only be used in MS Access.
 In this example, we will select the first name for the table “stationary”.
 
 SELECT FIRST (Name) AS First_name FROM Stationary;
+  
 
 
