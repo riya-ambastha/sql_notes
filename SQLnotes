@@ -141,4 +141,4 @@ Syntax to Select a Database in SQL
 The syntax to select a database in SQL is:
 USE DATABASE_NAME;
 
-
+ 
